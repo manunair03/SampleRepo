@@ -6,8 +6,22 @@ public class Child implements Parent {
 		Child obj = new Child();
 		obj.print();
 		obj.display();
+		obj.show();
 		// TODO Auto-generated method stub
-
+		
+		// reference creation
+		
+		//interfacename objectname = new class name();
+		Parent obj1 = new Child();
+		obj1.display();
+		obj1.print();
+		
+		
+	}
+	
+	public void show ()
+	{
+		System.out.println("Child Class");
 	}
 
 	@Override
